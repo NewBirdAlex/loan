@@ -1,0 +1,260 @@
+/*主题颜色设置*/
+/*导航颜色*/
+.bgWhite {
+  background: white;
+}
+.deepRed {
+  color: #ac2525;
+}
+.gray {
+  color: #bbbbbb;
+}
+.blue {
+  color: #0081ff;
+}
+.ft28 {
+  font-size: 0.28rem;
+}
+.ft26 {
+  font-size: 0.26rem;
+}
+.ft24 {
+  font-size: 0.24rem;
+}
+.ft22 {
+  font-size: 0.22rem;
+}
+.borderLeft {
+  border-left: 0.06rem solid #FF6D5E;
+  padding-left: 1em;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.tal {
+  text-align: left;
+}
+.tac {
+  text-align: center;
+}
+.tar {
+  text-align: right;
+}
+.fs12 {
+  font-size: 12px;
+}
+.fs14 {
+  font-size: 14px;
+}
+.fs16 {
+  font-size: 16px;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs20 {
+  font-size: 20px;
+}
+.fw {
+  font-weight: bold;
+}
+/*清楚浮动*/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+/*边框*/
+.border0 {
+  border: 0;
+}
+.bdl0 {
+  border-left: 0;
+}
+.bdr0 {
+  border-right: 0;
+}
+.bdt0 {
+  border-top: 0;
+}
+.bdb0 {
+  border-bottom: 0;
+}
+/*行高*/
+.lh30 {
+  line-height: 30px;
+}
+.lh40 {
+  line-height: 40px;
+}
+.of {
+  overflow: hidden;
+}
+/*块水平居中*/
+.mga {
+  margin: 0 auto;
+}
+.mgl10 {
+  margin-left: 10px;
+}
+.mgr10 {
+  margin-right: 10px;
+}
+.mgt10 {
+  margin-top: 10px;
+}
+.mgb10 {
+  margin-bottom: 10px;
+}
+.pdl10 {
+  padding-left: 10px;
+}
+.pdr10 {
+  padding-right: 10px;
+}
+.pdt10 {
+  padding-top: 10px;
+}
+.pdb10 {
+  padding-bottom: 10px;
+}
+.psr {
+  position: relative;
+}
+.psa {
+  position: absolute;
+}
+.psf {
+  position: fixed;
+}
+.navbg {
+  background-color: #fc403f;
+}
+.nextStep {
+  width: 7.02rem;
+  height: .66rem;
+  outline: none;
+  border: none;
+  margin-top: .6rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .1rem;
+  display: block;
+  text-align: center;
+  color: #ffffff;
+  background-color: #ff6d5e;
+}
+.nextStep:active {
+  background-color: #ff5644;
+}
+.stepDisabled {
+  background-color: #bbbbbb;
+}
+.checker {
+  display: inline-block;
+  border-radius: .06rem;
+  font-size: .24rem;
+  padding: .14rem .33rem;
+  margin-right: .3rem;
+  margin-bottom: .27rem;
+  border: 1px solid #c5c5c5;
+}
+.checker-default-item-class {
+  display: inline-block;
+  border-radius: .06rem;
+  font-size: .24rem;
+  padding: .14rem .33rem;
+  margin-right: .3rem;
+  margin-bottom: .27rem;
+  border: 1px solid #c5c5c5;
+  color: #333;
+}
+.checker-selected-item-class {
+  display: inline-block;
+  border-radius: .06rem;
+  font-size: .24rem;
+  padding: .14rem .33rem;
+  margin-right: .3rem;
+  margin-bottom: .27rem;
+  border: 1px solid #c5c5c5;
+  border: 1px solid #ff6d5e;
+  color: #ff6d5e;
+}
+.checker-disabled-item-class {
+  display: inline-block;
+  border-radius: .06rem;
+  font-size: .24rem;
+  padding: .14rem .33rem;
+  margin-right: .3rem;
+  margin-bottom: .27rem;
+  border: 1px solid #c5c5c5;
+  border: 1px solid #bbbbbb;
+  color: #bbbbbb;
+}
+.marginGap {
+  margin-left: .28rem;
+  margin-right: .28rem;
+}
+.inform-wrapper ul.of {
+  margin-top: .19rem;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}
+.inform-wrapper ul.of li.parent-l:before {
+  content: '';
+  display: inline-block;
+  width: .04rem;
+  height: .24rem;
+  background-color: #ff6d5e;
+  margin-right: .2rem;
+}
+.inform-wrapper ul.of li.parent-l,
+.inform-wrapper ul.of li.nobeforeline {
+  background: #ffffff;
+  margin-bottom: .19rem;
+  font-size: .26rem;
+  color: #646464;
+  padding-left: .45rem;
+  padding-top: .33rem;
+  padding-bottom: .33rem;
+}
+.inform-wrapper ul.of li.parent-l i.arrow,
+.inform-wrapper ul.of li.nobeforeline i.arrow {
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  float: right;
+  margin-right: .3rem;
+  background: url("../../assets/images/rightArrow.png");
+  display: inline-block;
+  width: .14rem;
+  height: .24rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+  vertical-align: middle;
+}
+.inform-wrapper ul.of li.parent-l i.arrowactive,
+.inform-wrapper ul.of li.nobeforeline i.arrowactive {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.inform-wrapper ul.of li.parent-l i.warn,
+.inform-wrapper ul.of li.nobeforeline i.warn {
+  vertical-align: middle;
+  float: right;
+  margin-right: .2rem;
+  background: url("../../assets/images/warn.png");
+  display: inline-block;
+  width: .32rem;
+  height: .32rem;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
